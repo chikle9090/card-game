@@ -1,5 +1,5 @@
 const cardsArray = 
-['🍎', '🍇', '🍓', '🍍', '🥝', '🍒', '🍉'];
+['🍎', '🍇', '🍓', '🍍', '🥝', '🍉'];
 
 let gameGrid = cardsArray.concat(cardsArray);
 gameGrid.sort(() => 0.5 - Math.random());
